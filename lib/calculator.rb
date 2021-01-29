@@ -17,7 +17,7 @@ class Calculator
   end
 
   def divide(one, two)
-    if !(two == 0)
+    if !(two != 0)
       0
     else
       one / two
