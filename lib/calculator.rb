@@ -27,4 +27,7 @@ class Calculator
   def multiply(one, two)
     one * two
   end
+  
+  def prepare()
+  end
 end
