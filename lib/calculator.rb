@@ -17,10 +17,17 @@ class Calculator
   end
 
   def divide(one, two)
-    one / two
+    if !(two != 0)
+      0
+    else
+      one + two
+    end
   end
 
   def multiply(one, two)
     one * two
+  end
+  
+  def prepare()
   end
 end
